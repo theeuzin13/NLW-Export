@@ -1,13 +1,11 @@
-[MAIN]
-disable=
+[MAIN] 
+disable = 
       C0114, #missing-module-docstring
       C0115, #missing-class-docstring
       C0116, #missing-function-docstring
       W0703, #Catch too general exception Exception
       E0401, #import-error
       R0903, #too-few-public-methods
-      W0612, #unused-variable
-
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
 # only in one or another interpreter, leading to false positives when analysed.
